@@ -23,7 +23,7 @@ body {
 }
 
 .location:hover {
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 8px 16px 0 rgba(175, 133, 255, 0.86);
 }
 
 
@@ -32,16 +32,13 @@ body {
 @media screen and (min-width: 1001px) {
 	.card {
 		margin-left: 32%;
-		margin-top: 2%;
-		padding: 0px;
+		margin-top: 15%;
+		padding: 10px;
 		background-color: white;
-		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 		transition: 0.3s;
 		width: 35%;
 		border-radius: 5px;
-	}
-	.card:hover {
-		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 	}
 	img {
 		border: 20px solid white;
@@ -53,7 +50,7 @@ body {
 	.name {
 		text-align: center;
 		font-size: 2.8em;
-		color: gainsboro;
+		color: hsl(269.01deg 84.36% 35.1% / 68%);
 		margin-top: 15%;
 		margin-bottom: auto;
 		text-transform: capitalize;
@@ -61,7 +58,7 @@ body {
 	hr {
 		width: 93%;
 		height: 2px;
-		background-color: gainsboro;
+		background-color: rgb(87, 15, 163);
 		border: 0px;
 	}
 	.subtitle {
@@ -88,6 +85,7 @@ body {
 		margin-right: 7%;
 		border-radius: 8px;
 	}
+
 }
 
 @media (min-width: 100px) and (max-width: 728px) and (orientation:portrait) {
@@ -224,6 +222,7 @@ body {
 		margin-right: 7%;
 		border-radius: 8px;
 	}
+	
 }
 
 @media only screen and (min-width: 728px) and (max-width: 1000px) {
